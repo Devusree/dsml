@@ -1,0 +1,9 @@
+from sklearn.datasets import load_iris
+from sklearn import tree
+iris=load_iris()
+X,y=iris,data.iris.target
+clf=tree.DecisionTreeClassifier()
+clf=clf.fit(X,y)
+once trained,you can plot the tree with the 
+plot_tree function:
+tree_plot_tree(clf)
